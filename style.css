@@ -10,7 +10,6 @@ mark{
 header{
     display: flex;
     position:static;
-    flex: 500px, 1fr;
     justify-content: space-between;
     align-items: center;
     margin-top: 0;
