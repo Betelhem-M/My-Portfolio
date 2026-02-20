@@ -8,18 +8,36 @@
 </head>
 <body>
     <header>
-        <div><mark>Betelhem</mark> Molaw</div>
-        <div>
+        <div class="logo"><mark>Betelhem</mark> Molaw</div>
+        <nav class="nav-menu">
             <ul>
-                <li><a href="#home">Home</a> </li>
+                <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#service">service</a></li>
-                <li><a href="#projects">projects</a></li>
-                <li><a href="#contacts">contacts</a></li>
+                <li><a href="#service">Service</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contacts</a></li>
                 <li>dark</li>
             </ul>
+        </nav>
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
         </div>
     </header>
+
+    <!-- Sidebar for mobile -->
+    <div class="sidebar" id="sidebar">
+        <div class="sidebar-close" id="sidebarClose">&times;</div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#service">Service</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contacts</a></li>
+        </ul>
+    </div>
+    <div class="overlay" id="overlay"></div>
     <div id="home">
        <div id="left">
         <h3>Hello I'm </h3>
